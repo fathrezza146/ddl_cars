@@ -1,4 +1,4 @@
-ed_at) VALUES
+INSERT INTO public.cars (id,manufacturer,model,price,"year",kilometer,fuel_type,transmission,color,engine,max_power,max_torque,drivetrain,length,width,height,seating_capacity,fuel_tank_capacity,created_at) VALUES
 	 (34,'Honda','CR-V 2.4 AT',860000,2013,67000,'Petrol','Automatic','Brown','','','','',NULL,NULL,NULL,'','','2023-01-17 04:31:28.8103'),
 	 (26,'Maruti Suzuki','Ritz Zxi BS-IV',325000,2013,23086,'Petrol','Manual','Grey','1197 cc','85 bhp @ 6000 rpm','113 Nm @ 4500 rpm','FWD',3775,1680,1620,'5','43','2023-01-25 04:00:42.269611'),
 	 (27,'Hyundai','Creta 1.6 SX Plus Petrol',1175000,2019,36313,'Petrol','Manual','Grey','1591 cc','122 bhp @ 6400 rpm','154 Nm @ 4850 rpm','FWD',4270,1780,1630,'5','60','2023-03-22 01:27:02.708353'),
